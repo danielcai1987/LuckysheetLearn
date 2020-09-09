@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Sheet1",
+    "config": {},
+    "index": "1",
+    "status": "1",
+    "order": "0",
+    "luckysheet_select_save": [
+      { "row": [0, 0], "column": [4, 4], "sheetIndex": 1 }
+    ],
+    "zoomRatio": 1,
+    "showGridLines": "1",
+    "defaultColWidth": 80,
+    "defaultRowHeight": 20,
+    "celldata": [
+      {
+        "r": 0,
+        "c": 0,
+        "v": {
+          "v": "Luckysheet",
+          "ct": { "fa": "General", "t": "g" },
+          "bg": null,
+          "bl": 0,
+          "it": 0,
+          "ff": 1,
+          "fs": "11",
+          "ht": 1,
+          "vt": 1,
+          "m": "Luckysheet"
+        }
+      }
+    ],
+    "calcChain": []
+  }
+]

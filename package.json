@@ -1,0 +1,19 @@
+{
+  "name": "luckysheet-learn",
+  "version": "1.0.0",
+  "author": "",
+  "description": "",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "repository": "",
+  "devDependencies": {
+    "express": "^4.17.1"
+  }
+}
