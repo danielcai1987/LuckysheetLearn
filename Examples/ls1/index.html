@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head lang="zh">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="renderer" content="webkit" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,user-scalable=0"
+    />
+    <title>Luckysheet</title>
+
+    <link rel="stylesheet" href="./plugins/css/pluginsCss.css" />
+    <link rel="stylesheet" href="./plugins/plugins.css" />
+    <link rel="stylesheet" href="./css/luckysheet.css" />
+    <link rel="stylesheet" href="./assets/iconfont/iconfont.css" />
+    <script src="./plugins/js/plugin.js"></script>
+
+    <!-- rollup luckysheet.js -->
+    <script src="./luckysheet.umd.js"></script>
+  </head>
+
+  <body>
+    <div
+      id="luckysheet"
+      style="
+        margin: 0px;
+        padding: 0px;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0px;
+        top: 0px;
+      "
+    ></div>
+
+    <script>
+      $(function () {
+        const options = {
+          container: 'luckysheet',
+          lang: 'en',
+          forceCalculation: false,
+          loadUrl: 'http://localhost:8000/load/v18.json',
+        };
+        luckysheet.create(options);
+      });
+    </script>
+  </body>
+</html>
